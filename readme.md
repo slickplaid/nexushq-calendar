@@ -1,2 +1,2 @@
-http://slickplaid.net/nxhq/
+http://slickplaid.net/clients/nxhq/
 
