@@ -1,2 +1,2 @@
-http://slickplaid.net/clients/nxhq/
+http://slickplaid.net/clients/nxhq/cal/
 
