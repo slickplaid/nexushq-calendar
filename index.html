@@ -1,4 +1,5 @@
-<html class="wf-proximanova-n3-active wf-proximanova-n4-active wf-proximanova-n6-active wf-proximanova-n7-active wf-rooneyweb-n3-active wf-rooneyweb-i3-active wf-rooneyweb-n4-active wf-rooneyweb-i4-active wf-rooneyweb-n5-active wf-rooneyweb-i5-active wf-active" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html class="wf-proximanova-n3-active wf-proximanova-n4-active wf-proximanova-n6-active wf-proximanova-n7-active wf-rooneyweb-n3-active wf-rooneyweb-i3-active wf-rooneyweb-n4-active wf-rooneyweb-i4-active wf-rooneyweb-n5-active wf-rooneyweb-i5-active wf-active" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -12,12 +13,12 @@
   <link href="http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,300,700" rel="stylesheet" type="text/css">
 
-  <script src="js/base.js" type="text/javascript"></script>
+  <script src="js/modernizr.js"></script>
 </head>
 
 <body data-spy="scroll" class=" hasGoogleVoiceExt">
 
-  <div class="container">
+  <div class="row container">
     <div class="table-top">
       <div class="table-top-actions" style="float:left; margin-right: 14px">
         <div class="table-top-action" style="margin-right: 6px">
@@ -43,7 +44,7 @@
       <div class="clearfix"></div>
     </div>
 
-    <section id="calendar" class="calendar day monday">
+    <section id="calendar" class="calendar day monday" data-year="2012" data-month="7" data-day="6">
       <div class="days">
         <div class="day-headers">
           <ol>
@@ -142,6 +143,7 @@
                 <span class="day-event-name">Meeting</span>
                 <span class="day-event-time">9 am to 12 pm</span>
               </h3>
+              <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
             </div>
           </div>
           <div class="day-events tuesday">
@@ -150,6 +152,7 @@
                 <span class="day-event-name">Lunch</span>
                 <span class="day-event-time">12:30 pm to 1 pm</span>
               </h3>
+              <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
             </div>
           </div>
           <div class="day-events wednesday">
@@ -158,6 +161,7 @@
                 <span class="day-event-name">Lunch</span>
                 <span class="day-event-time">12:30 pm to 1 pm</span>
               </h3>
+              <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
             </div>
           </div>
           <div class="day-events thursday">
@@ -166,6 +170,7 @@
                 <span class="day-event-name">Meeting</span>
                 <span class="day-event-time">9:30 am to 11 am</span>
               </h3>
+              <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
             </div>
           </div>
           <div class="day-events friday">
@@ -174,6 +179,7 @@
                 <span class="day-event-name">Meeting</span>
                 <span class="day-event-time">9:30 am to 11 am</span>
               </h3>
+              <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
             </div>
 
           </div>
@@ -183,6 +189,7 @@
                 <span class="day-event-name">Meeting</span>
                 <span class="day-event-time">9:30 am to 11 am</span>
               </h3>
+              <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
             </div>
 
           </div>
@@ -192,6 +199,7 @@
                 <span class="day-event-name">Meeting</span>
                 <span class="day-event-time">9:30 am to 11 am</span>
               </h3>
+              <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
             </div>
 
           </div>
@@ -210,6 +218,7 @@
             <span class="event-color"></span>
             <span class="event-name">Meeting</span>
             <span class="event-time">9 AM to 10 AM</span>
+            <span class="event-description"></span>
           </a>
         </div>
         <div class="agenda-day tuesday">
@@ -305,9 +314,215 @@
             <span class="event-time">9 AM to 10 AM</span>
           </a>
         </div>
+      </div>
+
+      <div class="event-form">
+        <form novalidate="novalidate" autocomplete="off" method="post" action="/advisors/72603/messages/1338453" class="form form message-form message-activity-form">
+  <div class="form-actions"><span class="action save-action"><input type="submit" value="Save" name="save"></span></div>
+  <table class="field-list">
+    <tbody>
+      <tr class="item">
+        <td class="field">From</td>
+        <td class="field">
+          <fieldset class="field date-field from-date">
+  <legend class="field-label">From Date</legend>
+  <div title="Enter a date as mm/dd/yyyy">
+    <p class="control month">
+      <label>
+        <span class="control-label">Month</span>
+        <input type="text" autocomplete="off" maxlength="2" size="2" name="message[activity_attributes][follow_up_at(2i)]" value="11" class="input" placeholder="mm">
+      </label>
+    </p>
+    <p class="control day">
+      <label>
+        <span class="control-label">Day</span>
+        <input type="text" autocomplete="off" maxlength="2" size="2" name="message[activity_attributes][follow_up_at(3i)]" value="9" class="input" placeholder="dd">
+      </label>
+    </p>
+    <p class="control year">
+      <label>
+        <span class="control-label">Year</span>
+        <input type="text" autocomplete="off" maxlength="4" size="4" name="message[activity_attributes][follow_up_at(1i)]" value="2012" class="input" placeholder="yyyy">
+      </label>
+    </p>
+  </div>
+  <span class="action calendar-action">Open Calendar</span>
+</fieldset>
+        </td>
+        <td class="field">
+          <fieldset class="field time-field from-time">
+  <legend class="field-label">From Time</legend>
+  <div title="Enter a date as mm/dd/yyyy">
+    <p class="control hour">
+      <label>
+        <span class="control-label">Hour</span>
+        <input type="text" value="12" name="message[activity_attributes][follow_up_at(4i)]" maxlength="2" size="2" class="input" placeholder="hh">
+      </label>
+    </p>
+    <p class="control minute">
+      <label>
+        <span class="control-label">Minute</span>
+        <input type="text" value="00" name="message[activity_attributes][follow_up_at(5i)]" maxlength="2" size="2" class="input" placeholder="mm">
+      </label>
+    </p>
+    <p class="control select meridiem">
+      <select name="message[activity_attributes][follow_up_at_meridiem]">
+        <option selected="selected" value="AM">AM</option>
+<option value="PM">PM</option>
+      </select>
+    </p>
+  </div>
+</fieldset>
+        </td>
+        <td class="field">
+          <label>
+            <span class="field-label">Repeat</span>
+            <select>
+              <option></option>
+              <option>Every Day</option>
+              <option>Every Week</option>
+              <option>Every Month</option>
+              <option>Every Year</option>
+            </select>
+          </label>
+        </td>
+      </tr>
+      <tr class="item">
+        <td class="field">To</td>
+        <td class="field">
+          <fieldset class="field date-field to-date">
+  <legend class="field-label">To Date</legend>
+  <div title="Enter a date as mm/dd/yyyy">
+    <p class="control month">
+      <label>
+        <span class="control-label">Month</span>
+        <input type="text" autocomplete="off" maxlength="2" size="2" name="message[activity_attributes][(2i)]" value="" class="input" placeholder="mm">
+      </label>
+    </p>
+    <p class="control day">
+      <label>
+        <span class="control-label">Day</span>
+        <input type="text" autocomplete="off" maxlength="2" size="2" name="message[activity_attributes][(3i)]" value="" class="input" placeholder="dd">
+      </label>
+    </p>
+    <p class="control year">
+      <label>
+        <span class="control-label">Year</span>
+        <input type="text" autocomplete="off" maxlength="4" size="4" name="message[activity_attributes][(1i)]" value="" class="input" placeholder="yyyy">
+      </label>
+    </p>
+  </div>
+  <span class="action calendar-action">Open Calendar</span>
+</fieldset>
+        </td>
+        <td class="field">
+          <fieldset class="field time-field to-time">
+  <legend class="field-label">To Time</legend>
+  <div title="Enter a date as mm/dd/yyyy">
+    <p class="control hour">
+      <label>
+        <span class="control-label">Hour</span>
+        <input type="text" value="" name="message[activity_attributes][to_time(4i)]" maxlength="2" size="2" class="input" placeholder="hh">
+      </label>
+    </p>
+    <p class="control minute">
+      <label>
+        <span class="control-label">Minute</span>
+        <input type="text" value="" name="message[activity_attributes][to_time(5i)]" maxlength="2" size="2" class="input" placeholder="mm">
+      </label>
+    </p>
+    <p class="control select meridiem">
+      <select name="message[activity_attributes][to_time_meridiem]">
+        <option selected="selected" value="AM">AM</option>
+<option value="PM">PM</option>
+      </select>
+    </p>
+  </div>
+</fieldset>
+        </td>
+        <td class="field checkbox-field is-complete">
+          <input type="hidden" name="message[activity_attributes][is_complete]" value="">
+          <label>
+            <input type="checkbox" value="true" name="message[activity_attributes][is_complete]" class="input">
+            <span class="field-label">Mark as completed</span>
+          </label>
+        </td>
+      </tr>
+      <tr class="item">
+        <td colspan="3" class="field">
+          <input type="hidden" value="281597" name="message[activity_attributes][activity_users_attributes][0][id]">
+          <input type="hidden" value="" name="message[activity_attributes][activity_users_attributes][0][user_id]">
+          <input type="hidden" value="281596" name="message[activity_attributes][activity_users_attributes][1][id]">
+          <input type="hidden" value="" name="message[activity_attributes][activity_users_attributes][1][user_id]">
+          <div class="field search-field users search-multiple">
+  <h4 class="field-label"><label for="usersEntitySearch">Users</label></h4>
+  <div>
+    <input type="hidden" value="users" name="search_users_screen">
+    <ul class="tokens">
+      <li class="token">
+        <label>
+          <input type="checkbox" value="117" name="message[activity_attributes][activity_users_attributes][0][user_id]" checked="checked">
+          <span>Kyle Ginavan</span>
+        </label>
+      </li>
+      <li class="token">
+        <label>
+          <input type="checkbox" value="221" name="message[activity_attributes][activity_users_attributes][1][user_id]" checked="checked">
+          <span>Mark Chai</span>
+        </label>
+      </li>
+      <li class="query">
+        <input type="text" autocomplete="off" name="search_users_query" value="" class="input" id="usersEntitySearch" placeholder="Find Users">
+        <input type="submit" class="search-action" value="Search" name="search_users">
+      </li>
+    </ul>
+  </div>
+</div>
+        </td>
+        <td class="field">Assign to</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="field text-field note">
+  <label>
+    <span class="field-label">Note on Message</span>
+    <textarea rows="3" cols="100" placeholder=" Write a note..." name="message[comments_attributes][0][note]" class="input"></textarea>
+  </label>
+</p>
+<p class="field select-field actions">
+  <label>
+    <span class="field-label">Actions</span>
+    <select name="message[comments_attributes][0][action]" class="input">
+      <option selected="selected" value="Private">Private</option>
+<option value="Public">Public</option>
+<option value="Notified">Notified</option>
+    </select>
+  </label>
+</p>
+
+  <div class="form-actions">
+    <input type="hidden" value="271658" name="message[activity_attributes][id]">
+    <input type="hidden" value="put" name="_method">
+    <input type="hidden" value="1" name="page">
+    <input type="submit" value="Save" name="save" class="action save-action">
+    <input type="hidden" value="jI4H1Jj5iJxoq/LgdpGEUxadHGdP+P/MQszvpKeoZl8=" name="authenticity_token">
+  </div>
+</form>
+      </div>
     </section>
   </div>
 
+
+<div style="display: none;" class="day-event-template day-event">
+  <h3>
+    <span class="day-event-name">New Event</span>
+    <span class="day-event-time"></span>
+  </h3>
+  <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
+</div>
+
+  <script src="js/base.js"></script>
+  <script src="js/jquery-ui.js"></script>
   <script src="js/calendar.js"></script>
 </body>
 </html>

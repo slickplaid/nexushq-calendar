@@ -1,8 +1,10 @@
 .calendar { background: #f2f2f2; }
 .calendar header, .calendar .day-headers li { background: #ebf2fc; border: 1px solid #b0c8e4; color: #183d67; padding: 4px 14px; }
 .calendar header > *, .calendar .day-headers li { text-transform: uppercase; font-size: 11px; font-weight: bold; line-height: 20px; }
+.calendar .event-starttime, .calendar .event-endtime, .calendar .event-description { display: none; }
 
-.calendar.week .agenda { position: relative; left: -9999px; height: 0; }
+.calendar .drag { pointer: n-resize; cursor: n-resize; }
+.calendar.week .agenda, .calendar.week .event-form, .calendar.day .event-form, .calendar.event .agenda { display: none; } 
 
 .calendar.week .days { width: 954px; float: left; }
 .calendar.week .days header, .calendar.day .days header { display: none; }
@@ -147,7 +149,7 @@
 .calendar.day.saturday .day-headers .saturday { display: block; }
 .calendar.day.sunday .day-headers .sunday { display: block; }
 
-.calendar.day .day-schedule { overflow: auto; float: right; clear: right; width: 330px; height: 567px; position: relative; }
+.calendar.day .day-schedule { overflow-y: auto; overflow-x: hidden; float: right; clear: right; width: 330px; height: 567px; position: relative; }
 .calendar.day .day-schedule .day-events { display: none; width: 259px; float: right; clear: right; }
 .calendar.day .day-schedule .day-event { width: 252px; }
 .calendar.day.monday .day-schedule .monday { display: block; }
@@ -161,7 +163,7 @@
 
 .calendar.day .day-headers .day-date-name:after, .calendar.day .day-headers .day-date-day:after { content: ", "; }
 
-.calendar.day .agenda { height: 597px; width: 610px; overflow: auto; background-color: #fff; }
+.calendar.day .agenda, .calendar.event.day .event-form { height: 597px; width: 610px; overflow: auto; background-color: #fff; }
 .calendar.day .agenda .day-date { float: right; }
 
 .calendar.day .agenda-event { display: block; position: relative; border: 1px solid #ccc; border-bottom: 1px solid #f2f2f2; border-top: 0; height: 40px; line-height: 3em; padding: 0 20px 0 20px; }
@@ -177,6 +179,10 @@
 .calendar.day .agenda-event.blue .event-color { background: #b3d1eb; color: #2576ad; border: 1px solid #85b0d3; }
 .calendar.day .agenda-event .event-color { background: #dcd1cd; color: #785c59; border: 1px solid #b2a7a5; }
 
+#calendar.event .event-form { display: block; }
+
+.ui-resizable-handle { position: absolute; font-size: 0.1px; display: block; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
 
 .animated {
   -webkit-animation-duration: 1s;
